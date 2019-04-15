@@ -1,0 +1,10 @@
+#!/bin/sh
+
+## Setting up environment variables
+export TF_VAR_backend_s3_bucket_name="ami-terraform"
+export TF_VAR_aws_access_key="XXXXXXXXXX"
+export TF_VAR_aws_secret_key="XXXXXXXXXX"
+export TF_VAR_aws_region="us-east-2"
+export TF_VAR_vpc_id="vpc-e68f8f8e"
+export TF_VAR_rds_launch_security_group_id="sg-04b10a25267343f68"
+export TF_VAR_db_password="XXXXXXXXXX"
